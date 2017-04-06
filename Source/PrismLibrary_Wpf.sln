@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.26228.9
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Prism", "Prism\Prism.csproj", "{E6C50355-D01E-4CAA-884D-D7929861315C}"
 EndProject
@@ -40,6 +40,10 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Prism.DryIoc.Wpf", "Wpf\Prism.DryIoc.Wpf\Prism.DryIoc.Wpf.csproj", "{8ACF42B5-7765-44D0-BA22-D320F7ABC911}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Prism.DryIoc.Wpf.Tests", "Wpf\Prism.DryIoc.Wpf.Tests\Prism.DryIoc.Wpf.Tests.csproj", "{FCF3AC90-40B9-40D1-A2B7-754251DEFC1D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ExampleApp", "ExampleApp", "{4369CA61-E0B5-4CAC-9082-6A3C4022D43B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrismUnityApp1", "ExampleApp\PrismUnityApp1.csproj", "{99C9E82C-C594-446D-AA59-8FFBC43AD226}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -247,6 +251,22 @@ Global
 		{FCF3AC90-40B9-40D1-A2B7-754251DEFC1D}.Release|x64.Build.0 = Release|Any CPU
 		{FCF3AC90-40B9-40D1-A2B7-754251DEFC1D}.Release|x86.ActiveCfg = Release|Any CPU
 		{FCF3AC90-40B9-40D1-A2B7-754251DEFC1D}.Release|x86.Build.0 = Release|Any CPU
+		{99C9E82C-C594-446D-AA59-8FFBC43AD226}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99C9E82C-C594-446D-AA59-8FFBC43AD226}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99C9E82C-C594-446D-AA59-8FFBC43AD226}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{99C9E82C-C594-446D-AA59-8FFBC43AD226}.Debug|ARM.Build.0 = Debug|Any CPU
+		{99C9E82C-C594-446D-AA59-8FFBC43AD226}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{99C9E82C-C594-446D-AA59-8FFBC43AD226}.Debug|x64.Build.0 = Debug|Any CPU
+		{99C9E82C-C594-446D-AA59-8FFBC43AD226}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{99C9E82C-C594-446D-AA59-8FFBC43AD226}.Debug|x86.Build.0 = Debug|Any CPU
+		{99C9E82C-C594-446D-AA59-8FFBC43AD226}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{99C9E82C-C594-446D-AA59-8FFBC43AD226}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{99C9E82C-C594-446D-AA59-8FFBC43AD226}.Release|ARM.ActiveCfg = Release|Any CPU
+		{99C9E82C-C594-446D-AA59-8FFBC43AD226}.Release|ARM.Build.0 = Release|Any CPU
+		{99C9E82C-C594-446D-AA59-8FFBC43AD226}.Release|x64.ActiveCfg = Release|Any CPU
+		{99C9E82C-C594-446D-AA59-8FFBC43AD226}.Release|x64.Build.0 = Release|Any CPU
+		{99C9E82C-C594-446D-AA59-8FFBC43AD226}.Release|x86.ActiveCfg = Release|Any CPU
+		{99C9E82C-C594-446D-AA59-8FFBC43AD226}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -262,5 +282,6 @@ Global
 		{FF6F1B2C-BECC-4477-B918-B75615BAA3A5} = {CF7424F7-8223-4A30-A7E8-5DD610A0D873}
 		{2823CA8B-DCBD-4694-B842-8A327DFCAA02} = {CF7424F7-8223-4A30-A7E8-5DD610A0D873}
 		{FCF3AC90-40B9-40D1-A2B7-754251DEFC1D} = {CF7424F7-8223-4A30-A7E8-5DD610A0D873}
+		{99C9E82C-C594-446D-AA59-8FFBC43AD226} = {4369CA61-E0B5-4CAC-9082-6A3C4022D43B}
 	EndGlobalSection
 EndGlobal
